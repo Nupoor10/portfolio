@@ -1,0 +1,19 @@
+.experience__card__container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.experience__skills__div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) {
+    .experience__card__container {
+        padding: 20px;
+    }
+}

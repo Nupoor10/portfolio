@@ -1,0 +1,62 @@
+.projects__card__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project__img {
+    width: 40%;
+    margin-right: 25px;
+}
+
+.project__img > img {
+    height: 150px;
+}
+
+.projects__card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__skills__div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.projects__card__container > img {
+    height: 350px;
+}
+
+.project__links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    text-align: center;
+}
+
+.project__mobile__img {
+    display: none;
+  }
+
+@media screen and (max-width:768px) {
+    .projects__card__container {
+        padding: 20px;
+    }
+    .projects__card__container > img {
+        height: 150px;
+    }
+    .project__img {
+        display: none;
+    }
+    .project__mobile__img {
+        display: block;
+    }
+}

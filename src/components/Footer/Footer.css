@@ -1,0 +1,12 @@
+.footer__container p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
