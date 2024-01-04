@@ -3,7 +3,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 import "./ProjectCard.css";
 
-const ProjectCard = ({img, name, description, github, demo}) => {
+const ProjectCard = ({img, name, description, github1, github2, demo}) => {
   return (
     <div className='section__wrapper'>
       <div className='projects__card__wrapper'>
@@ -15,7 +15,8 @@ const ProjectCard = ({img, name, description, github, demo}) => {
           <h1>{name}</h1>
           <p>{description}</p>
           <div className='project__links'>
-            {github && <a style={{color: 'white'}} rel="noreferrer noopener" href={github} target='_blank'><BsGithub /></a>}
+            {github1 && <a style={{color: 'white'}} rel="noreferrer noopener" href={github1} target='_blank'><BsGithub /></a>}
+            {github2 && <a style={{color: 'white'}} rel="noreferrer noopener" href={github2} target='_blank'><BsGithub /></a>}
             {demo && <a style={{color: 'white'}} rel="noreferrer noopener" href={demo} target='_blank'><FiExternalLink /></a>}
           </div>
         </div>

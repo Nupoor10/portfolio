@@ -20,7 +20,7 @@ const Navbar = () => {
                 offset={-60}
                 duration={500}
                 className="brand-name"
-                onClick={closeDropdown} // Add this onClick handler
+                onClick={closeDropdown}
             >
                 NS
             </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-60}
                             duration={500}
-                            onClick={closeDropdown} // Add this onClick handler
+                            onClick={closeDropdown}
                         >
                             About
                         </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-60}
                             duration={500}
-                            onClick={closeDropdown} // Add this onClick handler
+                            onClick={closeDropdown}
                         >
                             Experience
                         </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-60}
                             duration={500}
-                            onClick={closeDropdown} // Add this onClick handler
+                            onClick={closeDropdown}
                         >
                             Projects
                         </Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
                             smooth={true}
                             offset={-60}
                             duration={500}
-                            onClick={closeDropdown} // Add this onClick handler
+                            onClick={closeDropdown}
                         >
                            Contact
                         </Link>

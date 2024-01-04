@@ -7,11 +7,11 @@ const ExperienceCard = ({duration, position, company, location, description, ski
   return (
     <div className='section__wrapper'>
       <div className='experience__card__container'>
-        <h2>{position} &nbsp; @ &nbsp; <span className='company'>{company}</span></h2>
-        <h3>{duration} &nbsp; | &nbsp; <FaLocationDot />&nbsp;{location}</h3>
+        <h2>{position} {"  "} @ {"  "} <span className='company'>{company}</span></h2>
+        <h3>{duration} {"  "} | {"  "} <FaLocationDot />{"  "}{location}</h3>
         <div>{description?.map((item, index) => {
             return (
-              <p class="custom-bullet" key={index}>{item}</p>
+              <p className="custom-bullet" key={index}>{item}</p>
             )
           })}
         </div>

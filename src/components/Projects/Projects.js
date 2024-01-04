@@ -10,7 +10,7 @@ const Projects = () => {
        <div className='projects__container'>
       <h1>Projects</h1>
       {projectsArray.map((item, index) => {
-        return <ProjectCard key={index} img={item.img} name={item.name} description={item.description} github={item.github} demo={item.demo}/>
+        return <ProjectCard key={index} img={item.img} name={item.name} description={item.description} github1={item.github1} github2={item.github2} demo={item.demo}/>
       })}
     </div>
     </Element>
